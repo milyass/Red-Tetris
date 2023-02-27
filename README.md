@@ -15,7 +15,7 @@ foo@bar:~$ sh run.sh
 - you can chat with players in the room.
 - last player remaining wins.
 - input "↑ ↑ ↓ ↓ ← → ← → b a" on home screen to activate the game with konami code. 🤫 
-# ScreenShots
+# ScreenShots:
 ![Settings Window](https://github.com/milyass/Red-Tetris/blob/main/screenshots/1.png?raw=true)
 ![Settings Window](https://github.com/milyass/Red-Tetris/blob/main/screenshots/2.png?raw=true)
 ![Settings Window](https://github.com/milyass/Red-Tetris/blob/main/screenshots/3.png?raw=true)
