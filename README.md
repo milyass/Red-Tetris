@@ -22,3 +22,8 @@ foo@bar:~$ sh run.sh
 ![Settings Window](https://github.com/milyass/Red-Tetris/blob/main/screenshots/4.png?raw=true)
 ![Settings Window](https://github.com/milyass/Red-Tetris/blob/main/screenshots/5.png?raw=true)
 ![Settings Window](https://github.com/milyass/Red-Tetris/blob/main/screenshots/6.png?raw=true)
+![Settings Window](https://github.com/milyass/Red-Tetris/blob/main/screenshots/7.png?raw=true)
+![Settings Window](https://github.com/milyass/Red-Tetris/blob/main/screenshots/8.png?raw=true)
+![Settings Window](https://github.com/milyass/Red-Tetris/blob/main/screenshots/9.png?raw=true)
+![Settings Window](https://github.com/milyass/Red-Tetris/blob/main/screenshots/10.png?raw=true)
+![Settings Window](https://github.com/milyass/Red-Tetris/blob/main/screenshots/11.png?raw=true)
