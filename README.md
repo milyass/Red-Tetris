@@ -8,9 +8,17 @@ foo@bar:~$ sh run.sh
 ```
 - Access the game on ***http://localhost:50000***
 # How To Play:
-- fill in the room name and player name to start.         
+- fill in the room name and player name to start.   
+- the game is solo by default, you can invite friends by sharing link or by friends filling in the same room name.      
 - in tournament mode, only the room admin can start the game.
 - speed will increase on each level you complete.
 - you can chat with players in the room.
 - last player remaining wins.
+- input "↑ ↑ ↓ ↓ ← → ← → b a" on home screen to activate the game with konami code. 🤫 
 # ScreenShots
+![Settings Window](https://github.com/milyass/Red-Tetris/blob/main/screenshots/1.png?raw=true)
+![Settings Window](https://github.com/milyass/Red-Tetris/blob/main/screenshots/2.png?raw=true)
+![Settings Window](https://github.com/milyass/Red-Tetris/blob/main/screenshots/3.png?raw=true)
+![Settings Window](https://github.com/milyass/Red-Tetris/blob/main/screenshots/4.png?raw=true)
+![Settings Window](https://github.com/milyass/Red-Tetris/blob/main/screenshots/5.png?raw=true)
+![Settings Window](https://github.com/milyass/Red-Tetris/blob/main/screenshots/6.png?raw=true)
