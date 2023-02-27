@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Tailwind Regular !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+:root {
+  --block-size: 4vmin;
+  --block-size-next-block: 2vmin;
+  --block-size-player: 1vmin;
+
+  /* Border Colors are all transparent colors. These will tint or shade the background color of the square. */
+  --border-left-color: rgba(255, 255, 255, 0.20);
+  --border-top-color: rgba(255, 255, 255, 0.33);
+  --border-right-color: rgba(0, 0, 0, 0.15);
+  --border-bottom-color: rgba(0, 0, 0, 0.5);
+  --action-color: rgba(214, 30, 255, 0.6);
+  --danger-color: rgba(255, 30, 30, 0.6);
+  --info-color: rgba(23, 170, 255, 0.6);
+
+  /* Square Colors:  background colors for the squares.*/
+  --color-0: #eaeaea;
+  --color-1: #ff6600;
+  --color-2: #eec900;
+  --color-3: #0000ff;
+  --color-4: #cc00ff;
+  --color-5: #00ff00;
+  --color-6: #66ccff;
+  --color-7: #ff0000;
+  --color-8: #6c6c6c;
+  --g-text-color-disabled-light: rgba(124, 124, 124, 0.442) !important;
+
+  /* --color-0: #eaeaea30;
+  --color-1: #ff660030;
+  --color-2: #eec90030;
+  --color-3: #0000ff30;
+  --color-4: #cc00ff30;
+  --color-5: #00ff0030;
+  --color-6: #66ccff30;
+  --color-7: #ff000030; */
+}

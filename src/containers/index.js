@@ -1,0 +1,8 @@
+export {default as Chat} from './Chat/Chat'
+export { default as Controls} from './Controls/Controls'
+export {default as GameAction} from './GameAction/GameAction'
+export {default as GameBoard} from './GameBoard/GameBoard'
+export {default as GameInfo} from './GameInfo/GameInfo'
+export {default as Opponents} from './Opponents/Opponents'
+export {default as Player} from './Player/Player'
+export {default as ThemeSwitch} from './ThemeSwitch/ThemeSwitch'

@@ -1,0 +1,197 @@
+/************ Custom Font ************/
+@font-face {
+  font-family: Centra;
+  src: url('./assets/font/CentraNo2-Bold.ttf');
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Centra;
+  src: url('./assets/font/CentraNo2-Medium.ttf');
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Centra;
+  src: url('./assets/font/CentraNo2-Book.ttf');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: VT323;
+  src: url('./assets/font/VT323-Regular.ttf');
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: Tailwind Regular;
+  src: url('./assets/font/Tailwind Regular.ttf');
+  font-weight: 500;
+  font-display: swap;
+}
+
+/************ Default Css ************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-shadow: 1px 1px 3px var(--light-bg-dark-shadow), -1px -1px 3px var(--light-bg-light-shadow);
+  /* text-transform: capitalize; */
+  transition: 
+  background-color 1s ease-in-out, 
+  box-shadow 1.5s ease-in-out, 
+  text-shadow 1.5s ease-in-out, 
+  color 1s ease-in-out,
+  border-radius 0.8s ease-in-out;
+}
+
+html {
+  /* scroll-behavior: smooth;
+  scroll-padding-top: 75px; */
+}
+
+button {
+  text-transform: capitalize !important;
+  font-family: Tailwind Regular!important;
+  transition: inherit;
+  font-weight:900;
+  background: transparent;
+}
+
+input[type="text"] {
+  font-family: Tailwind Regular!important;
+  border: 0px!important;
+  box-shadow: inset 2px 2px 5px var(--light-bg-dark-shadow), inset -2px -2px 5px var(--light-bg-light-shadow);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  /* background: var(--bs-body-bg); */
+  background: transparent;
+  outline: 'none';
+  color: var(--g-text-color-light);
+  transition: 
+  background-color 1.5s ease-out, 
+  box-shadow 1.5s ease-out, 
+  text-shadow 1.5s ease-out, 
+  color 1.5s ease-out,
+  border-radius 0.8s ease-out;
+}
+
+input[type="text"]:hover {
+  border: 0px!important;
+  outline: none!important;
+  box-shadow: inset 2px 2px 0px var(--light-bg-dark-shadow), inset -2px -2px 0px var(--light-bg-light-shadow);
+}
+input[type="text"]:active {
+  border-radius: 12px;
+  border: 0px!important;
+  outline: none!important;
+  box-shadow: inset 2px 2px 10px var(--light-bg-dark-shadow), inset -2px -2px 10px var(--light-bg-light-shadow);
+}
+input[type="text"]:focus {
+  border-radius: 12px;
+  border: 0px!important;
+  outline: none!important;
+  box-shadow: inset 2px 2px 10px var(--light-bg-dark-shadow), inset -2px -2px 10px var(--light-bg-light-shadow);
+}
+
+
+b {
+  font-family: Tailwind Regular;
+  font-size: large;
+  
+}
+
+::selection {
+  color: var(--light-bg);
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #f0f0f07c;
+  
+}
+
+/* add it to make the input responsive in game page
+  - we select all div elements where the parent has the classname remove-flex,
+  and we apply the display property so that we can remove flex property from the div.
+*/
+.remove-flex > div {
+  display: inherit !important;
+}
+
+/*
+  we select the div after the chat input and remove it to center input button.
+*/
+
+#chat_input + div {
+  display: none ;
+}
+
+div:has(> button) {
+  background-color: transparent!important;
+  transition-delay: 1ms!important;
+}
+
+div[role=dialog] > div {
+  opacity: 1;
+  /* opacity: 0; */
+}
+
+/*****/
+.label {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  color: #394a56;
+}
+
+.label-text {
+  margin-left: 16px;
+}
+
+.toggle {
+  isolation: isolate;
+  position: relative;
+  height: 30px;
+  width: 60px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow:
+  4px 4px 4px 0px var(--light-bg-dark-shadow) inset,
+  -4px -4px 4px 0px var(--light-bg-light-shadow) inset;
+}
+
+.toggle-state {
+  display: none;
+}
+
+.indicator {
+  height: 100%;
+  width: 200%;
+  background: var(--bs-body-bg);
+  border-radius: 15px;
+  transform: translate3d(-75%, 0, 0);
+  box-shadow: -1px 8px 8px 10px var(--light-bg-dark-shadow),
+  /* -1px -1px 10px var(--light-bg-dark-shadow) inset; */
+  -1px -1px 10px var(--bs-body-bg) inset;
+}
+
+.indicator:hover {
+  background: var(--bs-body-bg);
+}
+
+.toggle-state:checked ~ .indicator {
+  transform: translate3d(25%, 0, 0);
+  box-shadow:
+   /* -1px -1px 10px var(--light-bg-dark-shadow) inset; */
+   -10px -20px 52px -12px var(--bs-body-bg) inset;
+}

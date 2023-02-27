@@ -1,0 +1,1 @@
+cd server && npm install -f && cd .. && npm install -f && npm run prod
