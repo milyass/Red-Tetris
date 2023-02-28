@@ -6,7 +6,7 @@ with a neumoprhic take on the project ui.
 ```console
 foo@bar:~$ sh run.sh
 ```
-- Access the game on ***http://localhost:50000***
+- Access the game on ***http://localhost:5000***
 # How To Play:
 - fill in the room name and player name to start.   
 - the game is solo by default, you can invite friends by sharing link or by friends filling in the same room name.      
